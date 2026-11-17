@@ -1,0 +1,81 @@
+Sunspark Rumble itself is released under the MIT License (see LICENSE).
+The notices below cover the third-party material it includes.
+
+The MIT License
+
+Copyright © 2010-2025 three.js authors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+
+EZ-Tree 1.1.0 — geometry generator, presets, oak/ash leaf images and bark maps
+Source: https://github.com/dgreenheck/ez-tree
+Sunspark supplies its own materials, canopy shading, wind, LOD and batching.
+
+MIT License
+
+Copyright (c) 2024 Daniel Greenheck
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+Poly Haven photographed materials (CC0 1.0 Universal)
+License: https://polyhaven.com/license
+Legal text: https://creativecommons.org/publicdomain/zero/1.0/legalcode
+All selected maps are embedded locally; no account or service is needed to play.
+Forest floor: https://polyhaven.com/a/forest_ground_04
+Grass path: https://polyhaven.com/a/grass_path_2
+Dry boulder: https://polyhaven.com/a/rock_boulder_dry
+Sand: https://polyhaven.com/a/sand_01
+Wood Planks by Amal Kumar: https://polyhaven.com/a/wood_planks
+Oak bark (distributed with EZ-Tree): https://polyhaven.com/a/bark_brown_02
+
+Water normal texture and Sky shader are from Three.js r180 examples,
+covered by the Three.js MIT notice above.
+https://github.com/mrdoob/three.js/blob/r180/examples/textures/waternormals.jpg
+
+
+Quaternius — Stylized Nature MegaKit, free Standard version
+Source: https://quaternius.itch.io/stylized-nature-megakit
+License: CC0 1.0 Universal
+Legal text: https://creativecommons.org/publicdomain/zero/1.0/legalcode
+Rock_Medium_1, Rock_Medium_2 and Rock_Medium_3, with Rocks_Diffuse.png.
+Models are normalized and embedded locally. Original source license is retained
+in assets/art-proof/nature/License_Standard.txt in this repository.
+
+The teal timber artwork was generated with OpenAI's image tool. The original
+concept oak and its generated leaf atlas are retained only in the art study;
+the playable game uses the earlier EZ-Tree woodland. Prompts, original files
+and provenance are retained under design/art-proof and assets/art-proof.

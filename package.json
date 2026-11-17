@@ -1,0 +1,51 @@
+{
+  "dependencies": {
+    "@dgreenheck/ez-tree": "1.1.0",
+    "esbuild": "0.25.10",
+    "three": "0.180.0"
+  },
+  "name": "sunspark-rumble",
+  "version": "1.12.2",
+  "private": true,
+  "type": "module",
+  "description": "A playful offline third-person island battle royale",
+  "license": "MIT",
+  "author": "Quinn Grasteit",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/QuinnGT/sunspark-rumble.git"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build:web": "node scripts/build-web.mjs",
+    "prepare:approved-art": "node scripts/prepare-approved-art.mjs",
+    "build:art-proof": "esbuild design/art-proof/proof.js --bundle --format=iife --outfile=design/art-proof/proof.bundle.js",
+    "test:art-proof": "node tests/browser-art-proof.mjs",
+    "test:concept-oak": "node tests/browser-concept-oak.mjs",
+    "build": "esbuild src/game.js --bundle --minify --format=iife --define:__SUNSPARK_TEST__=false --outfile=game.bundle.js",
+    "build:qa": "node tests/build-qa.mjs",
+    "start": "node server.mjs",
+    "test": "node --test tests/rules.test.js tests/engine.test.mjs tests/nature.test.js tests/graphics.test.js tests/maps.test.js tests/sunhaven-engine.test.mjs tests/sunhaven-polish.test.js tests/terrain-pipeline.test.js tests/batching-foliage.test.js tests/render-pipeline.test.js tests/shader-resources.test.js tests/asset-readiness.test.js tests/coastal-materials.test.js tests/coastal-kit.test.js tests/terrain-art.test.js tests/surface-clearance.test.js tests/authored-models.test.js tests/docks-architecture.test.js tests/docks-landforms.test.js tests/docks-oaks.test.js tests/startup-cancellation.test.js tests/approved-docks.test.js tests/rock-trapping.test.js tests/capsule-contact.test.js tests/joinery-clearance.test.js",
+    "prepare:nature": "node scripts/prepare-nature.mjs",
+    "prepare:coastal": "node scripts/prepare-coastal.mjs",
+    "test:coastal-materials": "node tests/browser-coastal-materials.mjs",
+    "test:art": "node tests/browser-sunhaven-art.mjs",
+    "package:release": "node scripts/package-release.mjs",
+    "test:browser": "node tests/browser-play.mjs",
+    "test:sunhaven": "node --test tests/maps.test.js tests/sunhaven-engine.test.mjs tests/sunhaven-polish.test.js",
+    "test:render-readiness": "node tests/browser-render-readiness.mjs",
+    "test:graphics-readiness": "node tests/browser-threejs-readiness.mjs",
+    "test:startup-readiness": "node tests/browser-startup-readiness.mjs",
+    "test:surfaces": "node --test tests/surface-clearance.test.js tests/joinery-clearance.test.js",
+    "check:surfaces": "node scripts/check-surfaces.mjs",
+    "test:surfaces:browser": "node tests/browser-surface-clearance.mjs",
+    "prepare:docks": "node scripts/prepare-docks-models.mjs",
+    "test:docks": "node tests/browser-docks-milestone.mjs",
+    "test:beams:browser": "node tests/browser-beam-clearance.mjs"
+  },
+  "devDependencies": {
+    "playwright-core": "1.55.0"
+  }
+}

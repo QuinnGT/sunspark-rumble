@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#193e50"><meta name="description" content="A sunny, playful 3D island battle royale. Two islands. Four blasters. One more match. Plays entirely offline."><title>Sunspark Rumble — Sunhaven Island</title><link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta property="og:title" content="Sunspark Rumble"><meta property="og:description" content="A sunny, playful 3D island battle royale. Two islands. Four blasters. One more match. Plays entirely offline."><meta property="og:type" content="website"><meta property="og:image" content="assets/web/og-image.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="assets/web/og-image.jpg">
+<link rel="stylesheet" href="style.css"></head>
+<body>
+<canvas id="game" aria-label="Sunspark Rumble 3D arena"></canvas>
+<div id="loading" class="modal" role="status" aria-live="polite"><section class="panel"><h2>A little sunshine is on its way.</h2><p>Getting your island ready…</p><div id="load-progress" class="hidden"><div id="load-bar" class="load-bar" role="progressbar" aria-label="Download progress" aria-valuemin="0" aria-valuemax="100"><i></i></div><small id="load-text" aria-hidden="true"></small></div></section></div>
+<div id="touch-notice" class="modal hidden"><section class="panel"><div class="eyebrow">HEADS UP</div><h2>Made for a keyboard and mouse.</h2><p>Sunspark Rumble is played with WASD and a mouse, and it has no touch controls yet. For the full rumble, open it on a computer.</p><button id="load-anyway" class="secondary">Load anyway</button></section></div>
+<div id="damage-flash"></div><div id="storm-tint"></div>
+<main id="title" class="screen">
+  <div class="topbar"><div class="brand"><span class="sun">✳</span> SUNSPARK <span class="brand-light">RUMBLE</span></div><span class="top-badge">SOLO ADVENTURE <i></i> LOCAL PLAY · v1.12.2</span></div>
+  <section class="title-content">
+    <div class="eyebrow"><span></span> LITTLE ISLAND. BIG FUN.</div>
+    <h1>SUNSPARK<br><span>RUMBLE</span><b>✳</b></h1>
+    <p class="intro">A little sunshine. A little chaos.<br>Be the last spark standing.</p>
+    <div class="island-label"><span class="pin">⌁</span><div><strong id="island-name">SUNHAVEN ISLAND</strong><small id="island-description">11 players · 5 districts · storm closes at 4:45</small></div></div>
+    <label class="map-choice" for="map-select">Choose your island <select id="map-select"><option value="sunhaven">Sunhaven · Five districts</option><option value="breezy">Breezy Bay · Compact classic</option></select></label>
+    <div class="difficulty" role="group" aria-label="Difficulty">
+      <button data-difficulty="easy" class="selected" aria-pressed="true">Easy <small>Active bots. Room to learn.</small></button>
+      <button data-difficulty="medium" aria-pressed="false">Medium <small>Flanks, cover, short bursts.</small></button>
+      <button data-difficulty="hard" aria-pressed="false">Hard <small>Sharp aim. Climbing builders.</small></button>
+      <button data-difficulty="insane" aria-pressed="false">Insane <small>Fast, relentless pressure.</small></button>
+    </div>
+    <button id="play" class="primary">LET’S RUMBLE <span>➜</span></button>
+    <div class="secondary-actions"><button id="explore" class="text-button">⌁ Explore this island</button><button id="practice" class="text-button">◎ Practice playground</button><button id="how-to" class="text-button">⌨ Controls & settings</button></div>
+  </section>
+  <div class="scene-label"><span class="tag">YOUR NEXT LITTLE ADVENTURE</span><strong id="welcome-name">Welcome to Sunhaven Island.</strong><span>Find your cover. Catch the sunshine.</span></div>
+  <footer><span>WASD to move <b>·</b> Mouse to aim <b>·</b> Click to fire <b>·</b> <a href="THIRD-PARTY-NOTICES.txt" target="_blank" rel="noopener">Credits &amp; licenses</a></span><span>NO ACCOUNTS. NO PURCHASES. JUST PLAY.</span></footer>
+</main>
+<div id="hud" class="hidden">
+  <button id="performance" class="performance" title="Open graphics and FPS settings"><span class="fps-dot"></span><strong id="fps-value">—</strong><span>FPS</span><small id="quality-badge">Balanced</small><span aria-hidden="true">⚙</span></button>
+  <div class="compass"><span>W</span><span>NW</span><strong id="heading">N</strong><span>NE</span><span>E</span></div>
+  <div class="match-info"><div class="mini-brand">✳ SUNSPARK</div><div class="remaining"><strong id="remaining">9</strong><span>PLAYERS LEFT</span><i></i><strong id="elims">0</strong><span>POPS</span></div><div id="feed"></div></div>
+  <div class="map-panel"><div class="map-top"><span id="map-name">SUNHAVEN ISLAND</span><button id="pause-button" aria-label="Pause">Ⅱ</button></div><canvas id="minimap" width="190" height="190" aria-label="Arena map showing player, opponents and safe zone"></canvas><div class="storm-clock"><span id="storm-label">STORM IN</span><strong id="storm-time">0:45</strong></div></div>
+  <div id="announce"><strong id="announce-title"></strong><span id="announce-body"></span></div>
+  <div id="safe-arrow" class="hidden"><b id="safe-arrow-icon">↑</b><span>SAFE CIRCLE</span></div><div id="crosshair"><i></i><i></i><i></i><i></i><b></b></div><div id="hitmarker">✕</div><div id="hit-number"></div><div id="enemy-label"></div>
+  <div id="cover-status" class="hidden"><div><strong id="cover-label"></strong><span id="cover-health"></span></div><div class="cover-bar"><i id="cover-fill"></i></div></div>
+  <div id="build-hint" class="hidden"></div><div id="action-message"></div><div id="toast" role="status"></div>
+  <div id="charge-panel" class="hidden"><span id="charge-text">PRISM CHARGING</span><div><i id="charge-fill"></i></div><small>Charging → automatic rainbow shot</small></div>
+  <div id="pickup-hint" class="hidden"><strong id="pickup-name"></strong><span id="pickup-role"></span><b id="pickup-action"></b><small>1 / 2 selects the slot to replace</small></div>
+  <div id="movement-status"><strong id="movement-state">ON YOUR FEET</strong><small id="movement-help">C · Crouch / Shift + move, then C · Slide</small></div>
+  <div class="health-panel"><div class="pilot-label"><span>✳</span> YOU <small id="mode-label">EASY SOLO</small></div><div class="bar shield"><span>◈</span><div><i id="shield-bar"></i></div><strong id="shield-value">100</strong></div><div class="bar health"><span>♥</span><div><i id="health-bar"></i></div><strong id="health-value">100</strong></div></div>
+  <div class="inventory">
+    <div class="ammo" id="gun-ammo"><span id="weapon-role">MID RANGE</span><span id="weapon-name">SPARK BLASTER</span><div><strong id="ammo">24</strong><span>/ <b id="reserve">144</b></span></div><small id="reload-hint">R RELOAD</small><small id="weapon-use">Hold fire · Steady golden sparks</small></div>
+    <div id="build-mode-label" class="hidden"><strong>LET’S BUILD!</strong><span>Click to place · 10 wood each</span><small>Look up to stack · R rotate · Q / E cycle</small></div>
+    <div class="slots"><div id="gun-slots" class="slots"><div id="slot-0" class="slot selected"><kbd>1</kbd><span id="slot-icon-0" class="weapon-icon">━▰━</span><small id="slot-name-0">SPARK</small></div><div id="slot-1" class="slot"><kbd>2</kbd><span id="slot-icon-1" class="weapon-icon">▰▰━</span><small id="slot-name-1">CONFETTI</small></div></div>
+      <div id="build-slots" class="slots hidden"><div id="build-wall" class="slot"><kbd>1</kbd><span class="piece-icon wall-icon"></span><small>WALL</small></div><div id="build-ramp" class="slot"><kbd>2</kbd><span class="piece-icon ramp-icon"></span><small>RAMP</small></div><div id="build-floor" class="slot"><kbd>3</kbd><span class="piece-icon floor-icon"></span><small>FLOOR</small></div></div>
+      <div class="build-slot"><span>▥ <b id="wood">80</b></span><small><kbd>B</kbd> <span id="build-toggle-hint">Build mode</span></small></div>
+    </div>
+  </div>
+  <div class="bottom-hint" id="bottom-hint"><span><kbd>SHIFT</kbd> Sprint</span><span><kbd>SPACE</kbd> Jump</span><span><kbd>C</kbd> Crouch / slide</span><span><kbd>RMB</kbd> Aim / look</span><span><kbd>E</kbd> Swap pickup</span><span><kbd>B</kbd> Build / blaster</span><span><kbd>ESC</kbd> Pause</span></div>
+  <button id="capture" class="hidden">Click to control your spark</button>
+</div>
+<div id="pause" class="modal hidden"><section class="panel"><div class="eyebrow">TAKE A BREATHER</div><h2>Paused.</h2><p>The island can wait.</p><button id="resume" class="primary">BACK TO THE RUMBLE <span>➜</span></button><button id="pause-graphics" class="secondary">Graphics & FPS</button><button id="pause-settings" class="secondary">Controls & settings</button><button id="leave" class="text-button">Back to the island menu</button></section></div>
+<div id="settings" class="modal hidden"><section class="panel settings-panel"><div class="eyebrow">MAKE YOURSELF AT HOME</div><h2>Ready, set, spark.</h2><div class="control-grid"><div><kbd>W A S D</kbd><span>Move</span></div><div><kbd>MOUSE</kbd><span>Look around (or arrow keys)</span></div><div><kbd>SHIFT</kbd><span>Sprint</span></div><div><kbd>SPACE</kbd><span>Jump · Hold for a higher jump</span></div><div><kbd>C</kbd><span>Toggle crouch · Sprint then C to slide</span></div><div><kbd>LEFT CLICK</kbd><span>Fire / place a build</span></div><div><kbd>RIGHT CLICK</kbd><span>Aim / hold to look</span></div><div><kbd>1 / 2</kbd><span>Switch blasters</span></div><div><kbd>R</kbd><span>Reload / rotate build</span></div><div><kbd>B</kbd><span>Enter / leave build mode</span></div><div><kbd>1 / 2 / 3</kbd><span>Build: wall / ramp / floor</span></div><div><kbd>Q / E</kbd><span>Cycle build pieces</span></div><div><kbd>E</kbd><span>Swap nearby weapon</span></div><div><kbd>ESC / P</kbd><span>Pause</span></div></div><p class="tip">C crouches; C again stands when there is room. Sprint, then tap C to slide. Space jumps out; C brakes. Walk over supplies to collect them. Press E near a weapon to swap your selected slot. Prism charges then fires automatically; Gumball bounces once. Builds snap together. Walk up ramps to extend higher, or look up to stack walls. Each piece costs 10 wood. Follow the map’s white circle to stay out of the purple storm.</p><label class="setting">Mouse sensitivity <input id="sensitivity" type="range" min="20" max="180" value="75"><output id="sensitivity-value">75%</output></label><label class="setting">Sound volume <input id="volume" type="range" min="0" max="100" value="35"><output id="volume-value">35%</output></label><button id="settings-graphics" class="secondary">Graphics & FPS</button><button id="close-settings" class="primary">GOT IT <span>✓</span></button></section></div>
+<div id="graphics" class="modal hidden"><section class="panel graphics-panel" aria-labelledby="graphics-title">
+  <div class="eyebrow">YOUR COMPUTER. YOUR ISLAND.</div><h2 id="graphics-title">Graphics & FPS</h2>
+  <p>Choose your look, then play and check how it feels.</p>
+  <label class="setting graphics-quality" for="quality">Picture quality <select id="quality"><option value="low">Smooth · more speed</option><option value="balanced" selected>Balanced · start here</option><option value="high">Detailed · best picture</option></select></label>
+  <p id="quality-description" class="quality-description"></p>
+  <div class="fps-reading"><div><strong id="graphics-fps">—</strong><span>FPS</span></div><span id="graphics-fps-context">Start playing to measure.</span></div>
+  <p class="fps-help">FPS means frames per second. Aim for a steady <strong>60 or more</strong>. If play feels choppy or the number often drops below 30, try a lower quality. Compare during a fight and near the water.</p>
+  <label class="fps-toggle"><input id="show-fps" type="checkbox" checked> Show FPS while playing</label>
+  <small class="graphics-save">Changes apply immediately and save on this computer.</small>
+  <button id="close-graphics" class="primary">BACK TO THE RUMBLE ➜</button>
+</section></div>
+<div id="result" class="modal hidden"><section class="panel result-panel"><div id="result-badge">✳</div><div id="result-eyebrow" class="eyebrow">THE BAY HAS A NEW CHAMPION</div><h2 id="result-title">SUNSATIONAL!</h2><p id="result-description">The last spark standing. That’s you.</p><div class="stats"><div><strong id="result-place">#1</strong><span>PLACE</span></div><div><strong id="result-pops">8</strong><span>POPS</span></div><div><strong id="result-time">3:42</strong><span>SURVIVED</span></div><div><strong id="result-builds">4</strong><span>BUILDS</span></div></div><button id="replay" class="primary">ONE MORE RUMBLE <span>↻</span></button><button id="result-menu" class="text-button">Back to the island menu</button></section></div>
+<div id="error" class="modal hidden"><section class="panel"><h2>A little help?</h2><p id="error-text"></p><button id="try-again" class="primary">TRY AGAIN</button></section></div>
+<script src="loader.js" data-bundle="game.bundle.js"></script>
+</body></html>
+
+
+
+
+

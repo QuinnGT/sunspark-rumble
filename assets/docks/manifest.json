@@ -1,0 +1,123 @@
+{
+  "format": "glTF 2.0 binary",
+  "units": "metres",
+  "up": "+Y",
+  "source": "Original Sunspark architecture; three CC0 Quaternius Stylized Nature MegaKit Standard rock models. Runtime textures are embedded separately; see assets/approved-docks/manifest.json and THIRD-PARTY-NOTICES.txt.",
+  "generator": "scripts/prepare-docks-models.mjs",
+  "bytes": 51604,
+  "sha256": "69dd01778f862b52ada684ff64b75d0c73ec286fecfab466f0d11a71f5f18700",
+  "models": [
+    {
+      "name": "boathouse-roof-left",
+      "vertices": 24,
+      "triangles": 12,
+      "attributes": [
+        "position",
+        "uv",
+        "color",
+        "normal"
+      ],
+      "bounds": [
+        [
+          -7,
+          -0.23999999463558197,
+          -6.099999904632568
+        ],
+        [
+          0,
+          3.5999999046325684,
+          6.099999904632568
+        ]
+      ]
+    },
+    {
+      "name": "boathouse-roof-right",
+      "vertices": 24,
+      "triangles": 12,
+      "attributes": [
+        "position",
+        "uv",
+        "color",
+        "normal"
+      ],
+      "bounds": [
+        [
+          0,
+          -0.23999999463558197,
+          -6.099999904632568
+        ],
+        [
+          7,
+          3.5999999046325684,
+          6.099999904632568
+        ]
+      ]
+    },
+    {
+      "name": "approved-rock-1",
+      "vertices": 351,
+      "triangles": 342,
+      "attributes": [
+        "position",
+        "normal",
+        "uv"
+      ],
+      "bounds": [
+        [
+          -0.5,
+          0,
+          -0.4634106755256653
+        ],
+        [
+          0.5,
+          0.7006798982620239,
+          0.4634106755256653
+        ]
+      ]
+    },
+    {
+      "name": "approved-rock-2",
+      "vertices": 249,
+      "triangles": 244,
+      "attributes": [
+        "position",
+        "normal",
+        "uv"
+      ],
+      "bounds": [
+        [
+          -0.5,
+          0,
+          -0.4065704345703125
+        ],
+        [
+          0.5,
+          0.6228678822517395,
+          0.4065704345703125
+        ]
+      ]
+    },
+    {
+      "name": "approved-rock-3",
+      "vertices": 531,
+      "triangles": 522,
+      "attributes": [
+        "position",
+        "normal",
+        "uv"
+      ],
+      "bounds": [
+        [
+          -0.5,
+          0,
+          -0.5081906318664551
+        ],
+        [
+          0.5,
+          0.6772589087486267,
+          0.5081906318664551
+        ]
+      ]
+    }
+  ]
+}

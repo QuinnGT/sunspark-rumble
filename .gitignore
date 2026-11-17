@@ -1,0 +1,20 @@
+# Dependencies and caches
+node_modules/
+.npm-cache/
+
+# Build outputs (rebuilt by npm run build / build:qa / build:web / package:release)
+game.bundle.js
+dist/
+release/
+tests/game.qa.bundle.js
+tests/*.bundle.js
+tests/scenario.html
+design/art-proof/proof.bundle.js
+
+# Local QA evidence, old portable snapshots and unused source archives
+tests/artifacts/
+design/*.zip
+assets/art-proof/source/
+
+# Local working notes kept out of the public repo
+local-notes/

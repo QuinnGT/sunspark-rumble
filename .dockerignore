@@ -1,0 +1,12 @@
+.git
+node_modules
+.npm-cache
+dist
+release
+game.bundle.js
+design/art-proof/proof.bundle.js
+design/*.zip
+assets/art-proof/source
+tests/artifacts
+tests/*.bundle.js
+local-notes

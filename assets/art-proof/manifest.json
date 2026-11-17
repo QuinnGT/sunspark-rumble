@@ -1,0 +1,244 @@
+{
+  "date": "2026-09-07",
+  "scope": "Isolated art proof, not a release asset manifest",
+  "sources": [
+    {
+      "author": "Quaternius",
+      "title": "Stylized Nature MegaKit Standard",
+      "url": "https://quaternius.itch.io/stylized-nature-megakit",
+      "license": "CC0 1.0",
+      "licenseFile": "assets/art-proof/nature/License_Standard.txt",
+      "archiveSha256": "298f6732b872e4cf7b30e6e7abf9641c7f6dc6b326df37ac089533ed7e3d58c9"
+    },
+    {
+      "author": "Dario Barresi / Poly Haven",
+      "title": "Rock Face 01",
+      "url": "https://polyhaven.com/a/rock_face_01",
+      "license": "CC0",
+      "metadata": "assets/art-proof/rock_face_01.files.json",
+      "validation": "Downloaded glTF and all four dependencies match official API MD5 hashes"
+    }
+  ],
+  "assets": [
+    {
+      "path": "assets/art-proof/nature/Bark_NormalTree.png",
+      "bytes": 3894788,
+      "sha256": "f36e94fdd73255347325b998e02a0b2575fdf714b0315bfe5e8ff34bc8e13603"
+    },
+    {
+      "path": "assets/art-proof/nature/Bark_NormalTree_Normal.png",
+      "bytes": 4384496,
+      "sha256": "852f6155404b8c39e100e41e26970e02a6a5c81b482d3726618dab28e3ad03a2"
+    },
+    {
+      "path": "assets/art-proof/nature/Bush_Common.bin",
+      "bytes": 91800,
+      "sha256": "a5e1a773c8ba78fd9c05a8b342131eba4879302a8fddd2c5186cab9ee1ef4966"
+    },
+    {
+      "path": "assets/art-proof/nature/Bush_Common.gltf",
+      "bytes": 2101,
+      "sha256": "77811fca92610cb254713d3d49d5029ab6cf13050c3afb61aa942786a7b2ca90"
+    },
+    {
+      "path": "assets/art-proof/nature/CommonTree_1.bin",
+      "bytes": 491576,
+      "sha256": "9dd689e84e1aa2f5b08db8def591254d582783c73737af54ba0d89b3e549c3ae"
+    },
+    {
+      "path": "assets/art-proof/nature/CommonTree_1.gltf",
+      "bytes": 3869,
+      "sha256": "b51cdea6545edb51d102dd6c27caafe62aa75e3c328ac8f9039f4e7bfd690bfa"
+    },
+    {
+      "path": "assets/art-proof/nature/CommonTree_2.bin",
+      "bytes": 423024,
+      "sha256": "a273d69de31a675a9d7e3eb3c43f804aef2d1b031692111b9e76eb3b0b686d0c"
+    },
+    {
+      "path": "assets/art-proof/nature/CommonTree_2.gltf",
+      "bytes": 3866,
+      "sha256": "67160975f0ac991b4a2ffb2add4ab4037b5e9c1bef9f66dac5235fcf0ba9bd52"
+    },
+    {
+      "path": "assets/art-proof/nature/CommonTree_3.bin",
+      "bytes": 296984,
+      "sha256": "24541f46fd9553e2389aba15575f2697009226e82118ed76868284114fd12b49"
+    },
+    {
+      "path": "assets/art-proof/nature/CommonTree_3.gltf",
+      "bytes": 3864,
+      "sha256": "17c6537aa8042bb7255fbb501bf7aeb2b6db87c16766f794f9c37be3ce70c976"
+    },
+    {
+      "path": "assets/art-proof/nature/CommonTree_4.bin",
+      "bytes": 307596,
+      "sha256": "4fa52cc5bb9aa42d5ce1eee6cffca0f0a7f25dd07fe4431e371548e89bc30233"
+    },
+    {
+      "path": "assets/art-proof/nature/CommonTree_4.gltf",
+      "bytes": 3865,
+      "sha256": "ddf0e8837705702871d3f03de8cf7aeed61ad4bf8ee92052b6f95bdd771297b6"
+    },
+    {
+      "path": "assets/art-proof/nature/CommonTree_5.bin",
+      "bytes": 252996,
+      "sha256": "0e617612d50e6bb2ca3c64338383f8938ce9e04d55b548ff11cec7a7b7d8f072"
+    },
+    {
+      "path": "assets/art-proof/nature/CommonTree_5.gltf",
+      "bytes": 3860,
+      "sha256": "fb7061f2bf9fe850870b056431f8f66cd8fdeb443c90695c5efbcf1fe6876d53"
+    },
+    {
+      "path": "assets/art-proof/nature/Flower_3_Group.bin",
+      "bytes": 27772,
+      "sha256": "5ab387dd3d6fe181df3af4eeac4df85533e4c27e77545ae39a61e0c2aaaab248"
+    },
+    {
+      "path": "assets/art-proof/nature/Flower_3_Group.gltf",
+      "bytes": 3629,
+      "sha256": "4df1612371982c543f930d6b213967372e0d459622d7eff7fc2ed1ddbfaa3b6c"
+    },
+    {
+      "path": "assets/art-proof/nature/Flowers.png",
+      "bytes": 444609,
+      "sha256": "5c531f2329c241c625aafd6cb769de29f33b480ef2a16491c2489f3c68e62a6a"
+    },
+    {
+      "path": "assets/art-proof/nature/Grass.png",
+      "bytes": 33605,
+      "sha256": "5d69048193b246a73c996b892607fb36c75d0c60afcb2dab8aa12de3c0b2d9bd"
+    },
+    {
+      "path": "assets/art-proof/nature/Grass_Common_Short.bin",
+      "bytes": 7052,
+      "sha256": "7a0f0f7a9ac39cfa4b303bac03a6594f43e48d873b73553fa06a79e4df1271e9"
+    },
+    {
+      "path": "assets/art-proof/nature/Grass_Common_Short.gltf",
+      "bytes": 2023,
+      "sha256": "6957b50622c9e26e7296c1b47ea8653bc0d957e0a547de444e2ed96f0075a21a"
+    },
+    {
+      "path": "assets/art-proof/nature/Leaves.png",
+      "bytes": 2586432,
+      "sha256": "23248cebe28a24e78add32db3c2ee2f4d7b9219e9d2467279722f0197a7b6bd5"
+    },
+    {
+      "path": "assets/art-proof/nature/Leaves_NormalTree_C.png",
+      "bytes": 158796,
+      "sha256": "998612bdf0b76a22f5f54d65cd7a457815d2842d89653fa4348a4ebb42933ad3"
+    },
+    {
+      "path": "assets/art-proof/nature/Leaves_TwistedTree_C.png",
+      "bytes": 70353,
+      "sha256": "0e459b56b14c0e81b1b7cf3d1e8c6f0bb71790eb6c46bb02a76a922d8df646ea"
+    },
+    {
+      "path": "assets/art-proof/nature/License_Standard.txt",
+      "bytes": 852,
+      "sha256": "120710e542c3ebaf83856c4eb55b4a1e680593b39302eba7fdc5d942dfe78c58"
+    },
+    {
+      "path": "assets/art-proof/nature/Rock_Medium_1.bin",
+      "bytes": 13284,
+      "sha256": "ea79527d4c2b3bdb7a28bf589bf0c1fd96d192a4d0738636753911dd58681e99"
+    },
+    {
+      "path": "assets/art-proof/nature/Rock_Medium_1.gltf",
+      "bytes": 1831,
+      "sha256": "5d1ab1fa03218f4a908728ed0eabe6486344a7e4f510b0d3d6f837fd1d011bd8"
+    },
+    {
+      "path": "assets/art-proof/nature/Rock_Medium_2.bin",
+      "bytes": 9432,
+      "sha256": "76b60bf8349f71abdb0ed462b3223d93c2dcabdfb5754bc132e18b021cc6c805"
+    },
+    {
+      "path": "assets/art-proof/nature/Rock_Medium_2.gltf",
+      "bytes": 1825,
+      "sha256": "fac2d05a05f2d0d2098de59c09b58f42cc875c9caca4fd4c4bd57f3d36e7b12e"
+    },
+    {
+      "path": "assets/art-proof/nature/Rock_Medium_3.bin",
+      "bytes": 20124,
+      "sha256": "63f94bce2d3fb3fe25b2d6c843a828b1bec76855dbaac93fcf5d43582309caad"
+    },
+    {
+      "path": "assets/art-proof/nature/Rock_Medium_3.gltf",
+      "bytes": 1832,
+      "sha256": "9a575b911372cf91693aa3a56aea8137ec2251c2b99fb34a31272ee64503047f"
+    },
+    {
+      "path": "assets/art-proof/nature/Rocks_Diffuse.png",
+      "bytes": 2517398,
+      "sha256": "b813696df6081f469a127092eb0ce45cc39d56f3ccc0699152bfcd3804810b48"
+    },
+    {
+      "path": "assets/art-proof/rock-face/rock_face_01.bin",
+      "bytes": 476436,
+      "sha256": "873eac0319333e92bc96ddeedf8ebf69dc3c68ff1dfe32d8c14ddc165cdb20ac"
+    },
+    {
+      "path": "assets/art-proof/rock-face/rock_face_01_1k.gltf",
+      "bytes": 2793,
+      "sha256": "96c332c01d173a2431115f3bac29be101fba341e5500e2a08e384f4edd17299e"
+    },
+    {
+      "path": "assets/art-proof/rock-face/textures/rock_face_01_arm_1k.jpg",
+      "bytes": 693610,
+      "sha256": "59128c79d207a50a69a38002986135ade3b19642d26158cec141eca41578c9ca"
+    },
+    {
+      "path": "assets/art-proof/rock-face/textures/rock_face_01_diff_1k.jpg",
+      "bytes": 853749,
+      "sha256": "41bd26ed2db1332b1ebb4b1326fd8af4d21f0f0eb57b8ea385033115c722cfdb"
+    },
+    {
+      "path": "assets/art-proof/rock-face/textures/rock_face_01_nor_gl_1k.jpg",
+      "bytes": 1023400,
+      "sha256": "9a9d85b9a01f4e24fc9ceec8baf96c019f552bca69591ff544c7a725e28b1d97"
+    },
+    {
+      "path": "assets/art-proof/teal-plank-atlas-v1.png",
+      "bytes": 2653718,
+      "sha256": "65a036bfbc39dd903b026759b6221a63a92689012eace88544c3ac2695933c9e",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "role": "sRGB base color only; atlas, not seamless tile",
+      "origin": "OpenAI built-in image generation; exact prompt in design/art-proof/teal-plank-prompt.txt"
+    },
+    {
+      "path": "assets/art-proof/oak-sprays-v2.png",
+      "bytes": 1673803,
+      "sha256": "15fbc07a197ab1dcbbbea1fc2c419ae24dfdd7541b6bcbce8caffb16c5807025",
+      "role": "sRGB base color + original generated alpha; four quadrant foliage atlas",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "origin": "OpenAI built-in image generation",
+      "prompt": "design/art-proof/oak-sprays-v2-prompt.txt"
+    },
+    {
+      "path": "assets/art-proof/sunhaven-concept-oak-v2.glb",
+      "bytes": 7099688,
+      "sha256": "19f1fa9acd873fdaba2bc68a082d50cbf020a3a16fe1233cd902f0fbad8fc6df",
+      "role": "Original textured concept oak; standard glTF 2.0 binary",
+      "geometrySource": "design/art-proof/concept-oak.js",
+      "barkSource": "Poly Haven bark_brown_02 (CC0), reused from the existing nature cache",
+      "runtimeShader": "Wind and cluster-normal lighting require concept-oak.js runtime binding",
+      "triangles": 14736
+    }
+  ],
+  "treeRevision": 2,
+  "approvedDirections": [
+    "painted timber",
+    "stylized coastal rock formations"
+  ],
+  "integrationRelease": "1.12.1",
+  "treeDirection": "Original natural woodland restored; concept oak retained as study only"
+}

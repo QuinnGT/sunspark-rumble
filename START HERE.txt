@@ -1,0 +1,86 @@
+SUNSPARK RUMBLE 1.12.2
+
+Fixed flickering doorway beams in the harbor, village and orchard buildings.
+Door widths and collision are preserved.
+
+Natural woodland trees are back around Driftwood Docks.
+Fixed getting trapped inside rocks after jumping or falling near their edges.
+The painted boathouse timber and thirteen authored rocks remain in place.
+
+New docks scene: tall pitched boathouse, deep porch and reachable roof terrace.
+Explore a connected rocky cove, broad oaks and warmer coastal light.
+
+Updated: detailed timber docks, coastal buildings, slate roofs and open boats.
+Explore shaped shores, clear dock shallows, rock gardens and flower beds.
+
+New: SUNHAVEN ISLAND, five districts and ten bots on a much bigger island.
+Explore village interiors, the lighthouse, orchard, docks and quarry terraces.
+Choose your island on the title screen. Breezy Bay is the compact classic.
+EXPLORE THIS ISLAND has no storm or attacking bots.
+Sunhaven's storm moves between phases and finishes closing at 4:45.
+Follow the white circle; the dashed circle shows its next destination.
+Use dock boardwalks: swimming is not included.
+
+Crouching now bends the hips and knees instead of squashing the character.
+Your helmet, backpack and blaster keep their full proportions.
+
+New movement: C crouches. Sprint with Shift + WASD, then tap C to slide.
+Space jumps out of a slide; C brakes. Hold Space higher, release for a hop.
+C again stands when there is room. Weapons and building work while crouched.
+
+New: branching trees, real bark and rock textures, meadow grass and ferns.
+Clear shallows reveal the seabed; light, wind and coastal reflections bring it alive.
+Live FPS below the map, plus Smooth / Balanced / Detailed graphics.
+Click the FPS badge or pause and choose Graphics & FPS.
+Start with Balanced; try Smooth if play feels choppy. Aim for a steady 60 FPS.
+Your quality choice and Show FPS preference save on this computer.
+All presets keep the same cover, ramps, opponents, and rooftop crates.
+
+1. Extract the ZIP if you are opening the portable edition.
+2. Double-click "Launch Sunspark Rumble.cmd" on Windows.
+   Or open "index.html" in Chrome, Edge, or Firefox on any desktop computer.
+3. Choose Easy, Medium, Hard, or Insane and click LET'S RUMBLE!
+
+Easy: active bots with forgiving aim and longer breaks between attacks.
+Medium: flanking, cover, and occasional building.
+Hard: sharper aim, climbing, and more building.
+Insane: fast, relentless pressure. Keep moving and build cover!
+
+Bots reload too: look for a cyan ring and a RELOADING label when aiming at one.
+They can build walls, ramps, and floors using their own limited wood.
+
+Try Practice playground first to learn without enemy attacks or a storm.
+All four blasters are beside the practice spawn!
+Walk near one, select slot 1 or 2, then press E to swap.
+
+SPARK: steady golden fire for medium range.
+CONFETTI: a wide party burst for close range.
+PRISM: click to charge, then a rainbow shot fires automatically. Right mouse zooms.
+GUMBALL: colorful balls bounce once. Try an angled shot off a wall!
+
+WASD: move     Mouse: look     Left click: fire     Right click: aim
+Shift: sprint     Space: jump     1/2: switch weapon     R: reload
+B: enter/leave build mode     Esc/P: pause
+While building: 1 wall / 2 ramp / 3 floor     R: rotate     Click: place
+Q/E also cycle pieces. B brings your equipped blaster back.
+
+Build a ramp, walk up, and place another to keep climbing.
+Switch to floors to make a bridge. Look up to stack walls.
+Green = ready. Red = blocked. SNAPPED = connected to an existing piece.
+
+Aim at builds to see their health. HIT means your cover took damage.
+BROKE! means the piece is gone and later shots can pass through.
+
+Walk over pickups to collect them. Each build costs 10 wood.
+Ammo boxes restock both carried guns. Weapons require E to swap.
+Stay inside the white circle on the map. Last spark standing wins!
+
+Adjust sensitivity, sound, or graphics in Controls & settings.
+If mouse capture is blocked, hold right mouse and drag to look, or use arrow keys.
+
+No accounts, internet connection, purchases, or installations are needed.
+Keep all of the extracted files together in the same folder.
+Read README.md for more details. Have a sunny little adventure!
+
+
+

@@ -1,0 +1,113 @@
+{
+  "prepared": "2026-09-07",
+  "maps": [
+    {
+      "file": "forest_ground_04_Diffuse.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/forest_ground_04/forest_ground_04_diff_1k.jpg",
+      "bytes": 1113899,
+      "sha256": "50a4dda30875020c64385261aa7e00e2155b592302fa6794165f58fae73cbd2c"
+    },
+    {
+      "file": "forest_ground_04_nor_gl.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/forest_ground_04/forest_ground_04_nor_gl_1k.jpg",
+      "bytes": 1326812,
+      "sha256": "9c3a0200e02ce40edffbbf9f5f623ef08ea9b1b7812b556182ec978f88887151"
+    },
+    {
+      "file": "forest_ground_04_Rough.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/forest_ground_04/forest_ground_04_rough_1k.jpg",
+      "bytes": 627507,
+      "sha256": "89d4d50395eb92824a64132c4bc8a5a09009071e0b325ab66dc3104c7a3090ed"
+    },
+    {
+      "file": "rock_boulder_dry_Diffuse.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/rock_boulder_dry/rock_boulder_dry_diff_1k.jpg",
+      "bytes": 859211,
+      "sha256": "20f653a42fb24f42aa40641663070d578678da49af18cc1049dbdd4ed8679f3c"
+    },
+    {
+      "file": "rock_boulder_dry_nor_gl.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/rock_boulder_dry/rock_boulder_dry_nor_gl_1k.jpg",
+      "bytes": 802497,
+      "sha256": "5915fea28a97357c78a04fb31c2516f1f7ed1b3a9cef4ae25aa93e4655e6c595"
+    },
+    {
+      "file": "rock_boulder_dry_Rough.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/rock_boulder_dry/rock_boulder_dry_rough_1k.jpg",
+      "bytes": 668127,
+      "sha256": "cc5229dd6bbdc4e817cb647e60242224b8e4f0237473ac018861ea243f2e8130"
+    },
+    {
+      "file": "sand_01_Diffuse.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/sand_01/sand_01_diff_1k.jpg",
+      "bytes": 485088,
+      "sha256": "a73b90eaa6d675ef57e7d48a8cf23e1f412e353ab2e29cf73930b8ecd4e76875"
+    },
+    {
+      "file": "sand_01_nor_gl.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/sand_01/sand_01_nor_gl_1k.jpg",
+      "bytes": 877821,
+      "sha256": "73984aecdc35b1ffbc322d64b7f8d8165b06970d11f37dd47010609fcb532704"
+    },
+    {
+      "file": "sand_01_Rough.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/sand_01/sand_01_rough_1k.jpg",
+      "bytes": 189667,
+      "sha256": "ccb179b12c56a9032d60e4f4e2da690b3612a58e1784eb14576372690cdcd1cb"
+    },
+    {
+      "file": "grass_path_2_Diffuse.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/grass_path_2/grass_path_2_diff_1k.jpg",
+      "bytes": 716010,
+      "sha256": "7f30b163739435c11f500f3818c7bb4922bab5f2734cc9ba6dd36817f0c9a8ab"
+    },
+    {
+      "file": "grass_path_2_nor_gl.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/grass_path_2/grass_path_2_nor_gl_1k.jpg",
+      "bytes": 831959,
+      "sha256": "4f6e911619d4c79a6bc340a64eac1e5fcbae8e54ea2674ed1892f6a9a1dfb5fa"
+    },
+    {
+      "file": "grass_path_2_Rough.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/grass_path_2/grass_path_2_rough_1k.jpg",
+      "bytes": 335245,
+      "sha256": "2aaf4400e7892d643a4f64d7347f2a0ca65051b5cb0c1b5d0ef383a65a5fa172"
+    },
+    {
+      "file": "waternormals.jpg",
+      "source": "https://raw.githubusercontent.com/mrdoob/three.js/r180/examples/textures/waternormals.jpg",
+      "bytes": 248813,
+      "sha256": "add9912b158a4fe9c12421745babe68c44c8af75631ac4837236cb2a03bc373f"
+    },
+    {
+      "file": "oak_color.png",
+      "source": "EZ-Tree 1.1.0",
+      "bytes": 238115,
+      "sha256": "24451223cf396d22910a4932b8bb996a7274e63d81e24128c96a430ab67822b1"
+    },
+    {
+      "file": "ash_color.png",
+      "source": "EZ-Tree 1.1.0",
+      "bytes": 181423,
+      "sha256": "5ec987db3829a839856c32c79b18a33a78f209e911cad55c65abfb77f30e2d29"
+    },
+    {
+      "file": "oak_color_1k.jpg",
+      "source": "EZ-Tree 1.1.0",
+      "bytes": 297877,
+      "sha256": "053794dc9d3d5c39fc00f2d0f0fc5f6f5c9b81b58c016af26c4aba0335d01722"
+    },
+    {
+      "file": "oak_normal_1k.jpg",
+      "source": "EZ-Tree 1.1.0",
+      "bytes": 67610,
+      "sha256": "91c8e6166e47876b213c59207cc3addecec5c1303509960cd81167e6c48984a1"
+    },
+    {
+      "file": "oak_roughness_1k.jpg",
+      "source": "EZ-Tree 1.1.0",
+      "bytes": 16648,
+      "sha256": "e24b8ca0304ab42f025561646576031aaf9e2919f57582d85033e29e78054b61"
+    }
+  ]
+}

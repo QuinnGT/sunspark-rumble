@@ -1,0 +1,95 @@
+{
+  "minPsnrDb": 42,
+  "textures": [
+    {
+      "name": "teal-plank-atlas-v1.webp",
+      "source": "assets/art-proof/teal-plank-atlas-v1.png",
+      "sourceSha256": "65a036bfbc39dd903b026759b6221a63a92689012eace88544c3ac2695933c9e",
+      "sourceBytes": 2653718,
+      "file": "assets/art-proof/teal-plank-atlas-v1.webp",
+      "bytes": 2302054,
+      "sha256": "cd1a23ed16c0bd2e9c9114baf0e2fc8dab00c64f13bbb0a3706570b37b501ccf",
+      "encoder": "Chrome 157.0.8103.79 canvas.convertToBlob(image/webp)",
+      "quality": 1,
+      "lossless": true,
+      "psnrDb": "lossless",
+      "candidates": [
+        {
+          "quality": 0.92,
+          "bytes": 524568,
+          "psnrDb": 38.85
+        },
+        {
+          "quality": 0.95,
+          "bytes": 657940,
+          "psnrDb": 39.9
+        },
+        {
+          "quality": 0.97,
+          "bytes": 721154,
+          "psnrDb": 40.33
+        },
+        {
+          "quality": 0.98,
+          "bytes": 778896,
+          "psnrDb": 40.47
+        },
+        {
+          "quality": 0.99,
+          "bytes": 821766,
+          "psnrDb": 40.63
+        },
+        {
+          "quality": 1,
+          "bytes": 2302054,
+          "psnrDb": "lossless"
+        }
+      ]
+    },
+    {
+      "name": "nature/Rocks_Diffuse.webp",
+      "source": "assets/art-proof/nature/Rocks_Diffuse.png",
+      "sourceSha256": "b813696df6081f469a127092eb0ce45cc39d56f3ccc0699152bfcd3804810b48",
+      "sourceBytes": 2517398,
+      "file": "assets/art-proof/nature/Rocks_Diffuse.webp",
+      "bytes": 292546,
+      "sha256": "b4b3c9fe330dc31f9a71ef6596a5eddb8af543a9e35126f513f30f7e91db9eed",
+      "encoder": "Chrome 157.0.8103.79 canvas.convertToBlob(image/webp)",
+      "quality": 0.92,
+      "lossless": false,
+      "psnrDb": 43.33,
+      "candidates": [
+        {
+          "quality": 0.92,
+          "bytes": 292546,
+          "psnrDb": 43.33
+        },
+        {
+          "quality": 0.95,
+          "bytes": 434890,
+          "psnrDb": 44.4
+        },
+        {
+          "quality": 0.97,
+          "bytes": 494736,
+          "psnrDb": 44.78
+        },
+        {
+          "quality": 0.98,
+          "bytes": 570980,
+          "psnrDb": 44.89
+        },
+        {
+          "quality": 0.99,
+          "bytes": 598798,
+          "psnrDb": 44.94
+        },
+        {
+          "quality": 1,
+          "bytes": 2199774,
+          "psnrDb": "lossless"
+        }
+      ]
+    }
+  ]
+}
